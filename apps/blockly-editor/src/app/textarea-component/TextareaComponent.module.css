@@ -1,0 +1,5 @@
+textarea{
+  flex-grow: 1;
+  border: 1px solid #ccc;
+  background-color: #eee;
+}
