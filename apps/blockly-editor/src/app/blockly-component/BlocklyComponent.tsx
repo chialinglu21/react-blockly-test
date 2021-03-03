@@ -32,7 +32,7 @@ class BlocklyComponent extends Component<BlocklyComponentProps> {
     const { children } = this.props;
     return (
       <React.Fragment>
-        <div id="blocklyDiv" ref={this.blocklyRef} style={{width: 800, height: 600}}></div>
+        <div id="blocklyDiv" ref={this.blocklyRef} style={{width: 1000, height: 600}}></div>
         <xml xmlns="https://developers.google.com/blockly/xml" is="blockly" style={{ display: 'none' }} ref={this.toolboxRef} >
           { children }
         </xml>

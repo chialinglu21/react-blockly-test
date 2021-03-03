@@ -48,7 +48,7 @@ class App extends React.Component<AppProps,AppState> {
   }
 
   generateCode = () =>{
-    const code = BlocklyPy.workspaceToCode(
+    const code = (BlocklyPy as any).workspaceToCode(
       this.workspace.current.compWorkspace
     );
     this.setState({code});
